@@ -9,3 +9,11 @@ div#app{
     color: #394a5e;
     font-size: 3rem;
 }
+
+.classeH1{
+    color: #66b07f;
+}
+
+.classeImgFilter{
+    filter:invert(1);
+}

@@ -11,9 +11,11 @@
 
     
 <div id="app">
-    <h1> {{ titolo }} </h1>
+    <h1 :class="miaClasse"> {{ titolo }} </h1>
 
-    <img :src="imgUrl" alt="">
+    <img :src="imgUrl" alt="" :class="classeImg">
+
+    <input type="text" v-model="">
 
 </div>
 
